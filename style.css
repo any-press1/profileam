@@ -200,3 +200,16 @@ footer p{
 footer span{
     color: rgb(75, 255, 114);
 }
+@media (min-width:0px) and (max-width:1000px) {
+    .Contact .in p{
+        font-size: 9px;
+    }
+}
+@media (max-width:1029px) {
+    header{
+        padding: 10px 20px;
+    }
+    section{
+        padding: 80px 20px;
+    }
+}
