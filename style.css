@@ -22,12 +22,12 @@ header{
     color: #35b81b;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 28.8px;
+    font-size: 1.8em;
 }
 nav a{
     text-decoration: none;
     color: #35b81b;
-    font-size: 17.6px;
+    font-size: 1.2em;
     font-weight: 500;
     padding-left: 30px;
 }
@@ -46,7 +46,7 @@ section{
 }
 .s1 h2{
     color: white;
-    font-size: 22.4px;
+    font-size: 1.4em;
     font-weight: 500;
 }
 .s1 h2 span{
@@ -58,7 +58,7 @@ section{
 }
 .s1 h3{
     color: white;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -71,7 +71,7 @@ section{
     font-size: 17.6px;
     font-weight: 600;
     display: inline-block;
-    padding: 15px 35px;
+    padding: 0.9375em 2.1875em;
     border-radius: 15px;
     letter-spacing: 1px;
     margin-bottom: 40px;
@@ -83,7 +83,7 @@ section{
 }
 .icons a{
     color: rgb(32, 170, 32);
-    font-size: 27.2px;
+    font-size: 1.7em;
     margin-right: 30px;
 }
 .icons a:hover{
@@ -93,7 +93,7 @@ section{
     display: flex;
     justify-content: center;
     color: #35b81b;
-    font-size: 35.2px;
+    font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
 }
@@ -105,7 +105,7 @@ section{
 }
 .card{
     background: white;
-    width: 340px;
+    width: 21.25em;
     box-shadow: 0 5px 25px rgba(1, 1, 1, 0.274);
     border-radius: 10px;
     padding: 25px;
@@ -117,34 +117,36 @@ section{
 }
 .icon{
     color: #36ce31;
-    font-size: 128px;
+    font-size: 8em;
     text-align: center;
 }
 .in{
     text-align: center;
 }
 .in h3{
-    color: #3af43a;
-    font-size: 19.2px;
+    color: #36ce31;
+    font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
 .Projects{
     background: #001600;
-    display: grid;
-    justify-content: center;
 }
 .pcont{
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .pcard{
     background: white;
     border: 1px solid white;
-    min-height: 224px;
+    min-height: 14em;
     width: 23em;
     overflow: hidden;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin: 20px;
     transition: all 0.7s ease;
 }
 .pcard:hover{
@@ -160,7 +162,7 @@ section{
     padding: 1em;
 }
 .pp{
-    font-size: 12.8px;
+    font-size: 0.8em;
     color: black;
 }
 .ptl{
@@ -178,27 +180,30 @@ section{
     color: #41e021;
 }
 .Contact .icon{
-    font-size: 72px;
+    font-size: 4.5em;
 }
 .Contact .in h3{
     color: black;
 }
 .Contact .in p{
-    font-size: 24px;
+    font-size: 1.5em;
 }
 footer{
     background: black;
     color: white;
-    padding: 32px;
+    padding: 2em;
     display: flex;
     justify-content: space-between;
 }
 footer p{
-    font-size: 20.8px;
+    font-size: 1.3em;
     font-weight: 600;
 }
 footer span{
     color: rgb(75, 255, 114);
+}
+footer .icons .a{
+    font-size: 1.3em;
 }
 @media (min-width:0px) and (max-width:1000px) {
     .Contact .in p{
@@ -211,5 +216,31 @@ footer span{
     }
     section{
         padding: 80px 20px;
+    }
+}
+@media (max-width: 600px) {
+    .logo {
+        font-size: 20px;
+    }
+    nav a {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    section {
+        padding: 50px 10px;
+    }
+    .card, .pcard {
+        width: 100%;
+    }
+    .view {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    .icons a {
+        font-size: 20px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
     }
 }
