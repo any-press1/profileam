@@ -180,7 +180,7 @@ section{
     color: #41e021;
 }
 .Contact .card{
-    width: 25em;
+    padding: 15px;
 }
 .Contact .icon{
     font-size: 4.5em;
@@ -208,16 +208,19 @@ footer span{
 footer .icons .a{
     font-size: 1.3em;
 }
-@media (min-width:0px) and (max-width:1000px) {
-    .Contact .in p{
-        font-size: 9px;
-    }
-}
 @media (max-width:1029px) {
     header{
         padding: 10px 20px;
     }
     section{
         padding: 80px 20px;
+    }
+}
+@media (min-width:0px) and (max-width:912px) {
+    .Contact .in p{
+        font-size: 1em;
+    }
+    .Contact .card{
+        width: 13em;
     }
 }
