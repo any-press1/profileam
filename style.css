@@ -179,9 +179,6 @@ section{
 .md:hover{
     color: #41e021;
 }
-.Contact .card{
-    padding: 20px;
-}
 .Contact .icon{
     font-size: 4.5em;
 }
@@ -218,6 +215,6 @@ footer .icons .a{
 }
 @media (min-width:0px) and (max-width:912px) {
     .Contact .in p{
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
