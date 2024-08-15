@@ -205,20 +205,8 @@ footer span{
 footer .icons .a{
     font-size: 1.3em;
 }
-@media (max-width:1029px) {
-    header{
-        padding: 10px 20px;
-    }
-    section{
-        padding: 80px 20px;
-    }
-}
-@media (min-width:0px) and (max-width:912px) {
-    .Contact .in p{
-        font-size: 1em;
-    }
-}
-@media (min-width:0px) and (max-width:650px){
+
+}@media (min-width:0px) and (max-width:1029px){
     header{
         flex-direction: column;
     }
