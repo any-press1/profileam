@@ -235,6 +235,11 @@ footer .icons a{
         font-size: 1.4em;
     }
 }
+@media (max-width:540px) {
+    .contact .card{
+        padding: 10px;
+    }
+}
 @media (max-width:414px) {
     footer .icons a{
         margin-left: 20px;
