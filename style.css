@@ -38,7 +38,6 @@ nav a:hover{
 section{
     padding: 100px 200px;
 }
-/* ; */
 .s1{
     display: flex;
     align-items: center;
@@ -204,9 +203,6 @@ footer .icons a{
     header{
         padding: 12px 20px;
     }
-    nav a{
-        margin-left: 10px;
-    }
     .title{
         font-size: 1.8em;
     }
@@ -240,21 +236,23 @@ footer .icons a{
         padding: 10px;
     }
 }
+@media (max-width:413px) {
+    .logo{
+        font-size:  1.5em;
+    }
+    nav a{
+        margin-left: 5px;
+        font-size: 1em;
+    }
+}
+@media (max-width:345px) {
+    .logo{
+        margin-left: 0;
+    }
+}
 @media (max-width:414px) {
     footer .icons a{
         margin-left: 20px;
-    }
-}
-@media (max-width:360px) {
-    nav a{
-        font-size: 0.8em;
-        margin-left: 10px;
-    }
-}
-@media (max-width:311px) {
-    nav a{
-        font-size: 0.8em;
-        margin-left: 5px;
     }
 }
 @media (max-width:300px) {
