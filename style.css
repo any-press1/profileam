@@ -236,7 +236,7 @@ footer .icons a{
         padding: 10px;
     }
 }
-@media (max-width:413px) {
+@media (max-width:426px) {
     .logo{
         font-size:  1.5em;
     }
@@ -255,7 +255,7 @@ footer .icons a{
         margin-left: 20px;
     }
 }
-@media (max-width:300px) {
+@media (max-width:302px) {
     body{
         font-size: 10px;
     }
