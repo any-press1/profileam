@@ -250,13 +250,27 @@ footer .icons a{
         margin-left: 0;
     }
 }
-@media (max-width:414px) {
-    footer .icons a{
-        margin-left: 20px;
-    }
-}
 @media (max-width:302px) {
     body{
         font-size: 10px;
+    }
+}
+@media (max-width:650px) {
+    footer p{
+        font-size: 1em;
+    }
+    footer .icons a{
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    footer{
+        padding: 2em 0.5em;
+    }
+}
+@media (max-width:405px) {
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
