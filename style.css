@@ -198,6 +198,7 @@ footer span{
 }
 footer .icons a{
     font-size: 1.3em;
+    margin-left: 30px;
 }
 @media (max-width:1023px) {
     header{
