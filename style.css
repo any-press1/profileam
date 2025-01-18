@@ -6,10 +6,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-::selection{
-    background: #07440f;
-    color: #35b81b;
-}
 /* header */
 header{
     display: flex;
@@ -47,21 +43,21 @@ section{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to right, #07440f,#08420ba8);
+    background: linear-gradient(to right, #07440f,#08420bb7);
 }
-.s1 h2{
+ h2{
     color: white;
     font-size: 1.4em;
     font-weight: 500;
 }
-.s1 h2 span{
+h2 span{
     font-size: 3em;
     color: #4eff4e;
     font-weight: 600;
     display: inline-block;
     margin-top: 10px;
 }
-.s1 h3{
+h3{
     color: white;
     font-size: 2em;
     font-weight: 700;
@@ -81,6 +77,14 @@ section{
     display: inline-block;
     margin-bottom: 40px;
     transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 .view:hover{
     background: green;
@@ -145,15 +149,29 @@ section{
     overflow: hidden;
     border: 1px solid white;
     transition: all 0.7s ease;
+    filter: grayscale(90%);
+    -webkit-filter: grayscale(100%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .p-card:hover{
     transform: scale(1.1);
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 .image img{
     width: 100%;
-}
-.image:hover{
-    opacity: 0.9;
 }
 .p-info{
     padding: 1em;
@@ -192,6 +210,7 @@ footer{
     padding: 2em;
     display: flex;
     justify-content: space-between;
+    direction: ltr;
 }
 footer p{
     font-size: 1.3em;
@@ -202,7 +221,6 @@ footer span{
 }
 footer .icons a{
     font-size: 1.3em;
-    margin-left: 30px;
 }
 @media (max-width:1023px) {
     header{
@@ -255,27 +273,13 @@ footer .icons a{
         margin-left: 0;
     }
 }
+@media (max-width:414px) {
+    footer .icons a{
+        margin-left: 20px;
+    }
+}
 @media (max-width:302px) {
     body{
         font-size: 10px;
-    }
-}
-@media (max-width:650px) {
-    footer p{
-        font-size: 1em;
-    }
-    footer .icons a{
-        font-size: 1em;
-        margin-left: 10px;
-    }
-    footer{
-        padding: 2em 0.5em;
-    }
-}
-@media (max-width:405px) {
-    footer{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 }
